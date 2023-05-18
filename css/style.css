@@ -1,4 +1,5 @@
 @import url(navbar.css);
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -24,7 +25,7 @@ body {
   margin: 10px 0;
 }
 
-footer {
+.footer {
   text-align: center;
   background-color: rgb(127, 255, 176);
   padding: 8px;
@@ -56,12 +57,13 @@ footer {
   max-width: 100%;
   margin-top: 5px;
 }
-.mastitulos {
+#mastitulos {
   margin: 10px 0px;
   color: black;
   text-align: center;
 }
-.mastitulos h3 {
+
+#mastitulos h3 {
   font-style: italic;
 }
 
@@ -119,7 +121,7 @@ footer {
   .titular h3 {
     font-size: 20px;
   }
-  .mastitulos {
+  #mastitulos {
     display: none;
   }
   #nota_principal h2 {
