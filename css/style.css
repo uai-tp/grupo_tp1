@@ -47,3 +47,6 @@ section{
     background-color: darkkhaki;
     padding: 20px;
 }
+img{
+    display: flex;
+}
