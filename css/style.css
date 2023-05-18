@@ -32,26 +32,81 @@ footer {
   flex-wrap: wrap;
 }
 
-aside {
-  flex: 30px;
+#titulares {
+  flex: 15%;
+  background-color: beige;
+  padding: 10px;
+}
+
+.titular {
+  padding: 10px;
+  border-bottom: 3px solid orange;
+  color: black;
+}
+
+.titular h2 {
+  font-size: 15px;
+}
+
+.titular img {
+  display: flex;
+  max-width: 100%;
+  margin-top: 5px;
+}
+.mastitulos {
+  margin: 10px 0px;
+  color: black;
+  text-align: center;
+}
+.mastitulos h3 {
+  font-style: italic;
+}
+
+#nota_principal {
+  flex: 50%;
+  background-color: darkkhaki;
+  padding: 20px;
+}
+#nota_secundaria {
+  flex: 20%;
   background-color: beige;
   padding: 20px;
 }
 
-section {
-  flex: 70%;
-  background-color: darkkhaki;
-  padding: 20px;
-}
-img {
-  display: flex;
+#horizontal {
+  margin: 10px;
 }
 
 @media screen and (max-width: 935px) {
   .row {
     flex-direction: column;
   }
+  #titulares {
+    display: flex;
+  }
+
+  .titular {
+    border: 0;
+  }
+
+  .titular h2 {
+    font-size: 20px;
+  }
+  .mastitulos {
+    display: none;
+  }
 }
 
 @media (max-width: 675px) {
+  #titulares {
+    display: block;
+  }
+
+  .titular {
+    border-top: 5px solid orange;
+  }
+
+  .titular h2 {
+    font-size: 25px;
+  }
 }
