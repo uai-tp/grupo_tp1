@@ -16,7 +16,8 @@ body {
 
 #header {
   text-align: center;
-  background-color: aquamarine;
+  background-color: #438FA1;
+  color: aliceblue;
   padding: 5px 0;
 }
 
@@ -27,7 +28,10 @@ body {
 
 .footer {
   text-align: center;
-  background-color: rgb(127, 255, 176);
+  /*background-color: rgb(127, 255, 176);*/
+  background-color: #438FA1;
+  color: aliceblue;
+
   padding: 8px;
 }
 
@@ -69,7 +73,7 @@ body {
 
 #nota_principal {
   flex: 50%;
-  background-color: darkkhaki;
+  background-color: #FFE161;
   padding: 20px;
 }
 #nota_principal img {
@@ -101,6 +105,9 @@ body {
 
 #horizontal {
   margin: 10px;
+  color: aliceblue;
+  background-color:burlywood;
+  
 }
 
 @media screen and (max-width: 935px) {
