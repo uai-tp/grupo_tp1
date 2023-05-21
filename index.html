@@ -1,119 +1,121 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Diario TP</title>
-    <!-- Montserrat Font -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
 
-    <link rel="stylesheet" href="css\normalize.css" />
-    <link rel="stylesheet" href="css\style.css" />
-  </head>
-  <body>
-    <header>
-      <div id="header">
-        <h1>Diario ItUAI</h1>
-      </div>
-    </header>
-    <input type="checkbox" id="toggle" />
-    <nav>
-      <label class="navbar-toggler" for="toggle">
-        <span class="bar"></span>
-        <span class="bar"></span>
-        <span class="bar"></span>
-      </label>
-      <ul class="nav-list">
-        <li class="nav-item">
-          <a class="nav-link">Inicio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link">Noticias recientes</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link">Economía</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link">Política</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link">Internacionales</a>
-        </li>
-      </ul>
-    </nav>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Diario TP</title>
+  <!-- Montserrat Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet" />
 
-    <div class="row" id="noticias">
-      <aside id="titulares">
-        <a href="#">
-          <div class="titular">
-            <h3>
-              El misterio de Yonaguni, la ciudad japonesa que se desvaneció
-            </h3>
-            <img src="img/Yonaguni.jpg" alt="Ciudad japonesa Yonaguni" />
-          </div>
-        </a>
-        <a href="#">
-          <div class="titular">
-            <h3>Seleccion Argentina es campeona del mundo</h3>
-            <img src="img/Seleccion.jpg" alt="Selección levantando la copa" />
-          </div>
-        </a>
-        <a href="#">
-          <div class="titular">
-            <h3>
-              La colección completa de “Indiana Jones” se lanzará en streaming
-            </h3>
-            <img src="img/indiana.jpg" alt="Selección levantando la copa" />
-          </div>
-        </a>
-        <a href="#">
-          <div id="mastitulos">
-            <h3>Más titulares...</h3>
-          </div>
-        </a>
-      </aside>
-      <section id="nota_principal">
-        <h2>
-          Buenos Aires es considerada la capital de los negocios en la región
-        </h2>
-        <img src="img/BuenosAires.jpg" alt="Buenos Aires" />
-        <p>
-          Buenos Aires posee un amplio abanico de propuestas tanto hoteleras
-          como de espacios de convenciones y reuniones y, claro está, siempre de
-          la mano de la increíble gastronomía y experiencias en la ciudad, lo
-          que le ha valido para ser considerada la capital de los negocios en la
-          región, según el ranking recientemente publicado por la Asociación
-          Internacional de Congresos y Convenciones.
-        </p>
-      </section>
-      <aside id="nota_secundaria">
-        <h3>Conoce los mejores frameworks OpenSource para crear una web</h3>
-        <img src="img/Desarrollo-paginas-web.webp" alt="" />
-        <p>
-          A la hora de crear una nueva página web debemos distinguir entre dos
-          aspectos. Por un lado tenemos el frontend, todo lo que se ejecuta en
-          el ordenador de quien visita la web, que se encarga de todo el diseño
-          y de los elementos con los que puede interactuar el usuario, mientras
-          que por otro lado tenemos el backend, lo que se ejecuta desde el
-          servidor y que se encarga, entre otras cosas, de procesar las bases de
-          datos y la información introducida por el usuario desde el frontend.
-        </p>
-      </aside>
+  <link rel="stylesheet" href="css\normalize.css" />
+  <link rel="stylesheet" href="css\style.css" />
+</head>
+
+<body>
+  <header>
+    <div id="header">
+      <h1>Diario ItUAI</h1>
     </div>
-    <div class="row" id="horizontal">
+  </header>
+  <input type="checkbox" id="toggle" />
+  <nav>
+    <label class="navbar-toggler" for="toggle">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </label>
+    <ul class="nav-list">
+      <li class="nav-item">
+        <a class="nav-link">Inicio</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link">Noticias recientes</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link">Economía</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link">Política</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link">Internacionales</a>
+      </li>
+    </ul>
+  </nav>
+
+  <div class="row" id="noticias">
+    <aside id="titulares">
+      <a href="#">
+        <div class="titular">
+          <h3>
+            El misterio de Yonaguni, la ciudad japonesa que se desvaneció
+          </h3>
+          <img src="img/Yonaguni.jpg" alt="Ciudad japonesa Yonaguni" />
+        </div>
+      </a>
+      <a href="#">
+        <div class="titular">
+          <h3>Seleccion Argentina es campeona del mundo</h3>
+          <img src="img/Seleccion.jpg" alt="Selección levantando la copa" />
+        </div>
+      </a>
+      <a href="#">
+        <div class="titular">
+          <h3>
+            La colección completa de “Indiana Jones” se lanzará en streaming
+          </h3>
+          <img src="img/indiana.jpg" alt="Selección levantando la copa" />
+        </div>
+      </a>
+      <a href="#">
+        <div id="mastitulos">
+          <h3>Más titulares...</h3>
+        </div>
+      </a>
+    </aside>
+    <section id="nota_principal">
+      <h2>
+        Buenos Aires es considerada la capital de los negocios en la región
+      </h2>
+      <img src="img/BuenosAires.jpg" alt="Buenos Aires" />
+      <p>
+        Buenos Aires posee un amplio abanico de propuestas tanto hoteleras
+        como de espacios de convenciones y reuniones y, claro está, siempre de
+        la mano de la increíble gastronomía y experiencias en la ciudad, lo
+        que le ha valido para ser considerada la capital de los negocios en la
+        región, según el ranking recientemente publicado por la Asociación
+        Internacional de Congresos y Convenciones.
+      </p>
+    </section>
+    <aside id="nota_secundaria">
+      <h3>Conoce los mejores frameworks OpenSource para crear una web</h3>
+      <img src="img/Desarrollo-paginas-web.webp" alt="" />
+      <p>
+        A la hora de crear una nueva página web debemos distinguir entre dos
+        aspectos. Por un lado tenemos el frontend, todo lo que se ejecuta en
+        el ordenador de quien visita la web, que se encarga de todo el diseño
+        y de los elementos con los que puede interactuar el usuario, mientras
+        que por otro lado tenemos el backend, lo que se ejecuta desde el
+        servidor y que se encarga, entre otras cosas, de procesar las bases de
+        datos y la información introducida por el usuario desde el frontend.
+      </p>
+    </aside>
+  </div>
+  <div class="row" id="horizontal">
+    <a href="https://enzyme.biz/blog/programar-inteligencia-artificial">
       <aside>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum
-        blanditiis, consequatur quisquam impedit quaerat quidem est iusto
-        inventore nihil fugit. Commodi ducimus quam reiciendis! Quo accusantium
-        qui nisi voluptate ipsa.
+        <h1>Programá inteligencia artificial con python en 4 pasos</h1>
+        En este artículo, nos centraremos en comprender qué son las Redes Neuronales Artificiales (RNA) y por qué son
+        fundamentales a la hora de programar inteligencia artificial. Te ofrecemos una guía con el paso a paso para la
+        programación de inteligencia artificial con python para crear RNA..
       </aside>
-    </div>
-    <footer class="footer" id="mainfooter">
-      <h3>FOOTER</h3>
-    </footer>
-  </body>
+    </a>
+  </div>
+  <footer class="footer" id="mainfooter">
+    <h3>FOOTER</h3>
+  </footer>
+</body>
+
 </html>
