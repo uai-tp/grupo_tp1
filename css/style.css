@@ -12,26 +12,38 @@
 
 body {
   font-family: "Montserrat", sans-serif;
+
 }
 
 #header {
   text-align: center;
   background-color: #438FA1;
-  color: aliceblue;
+  color: brown;
   padding: 5px 0;
+  display: flex;
+  align-items: center; 
+  text-decoration: underline;
+}
+
+.header-image {
+  margin-right: 10px;
+  width: 20%;
 }
 
 #header h1 {
   font-size: 55px;
-  margin: 10px 0;
+  margin: 10px auto;
+  text-align: center;
+  flex-grow: 1;
 }
 
 .footer {
   text-align: center;
   /*background-color: rgb(127, 255, 176);*/
   background-color: #438FA1;
-  color: aliceblue;
-
+  color: black;
+  font-size: xx-small;
+  font-style: oblique;
   padding: 8px;
 }
 
@@ -44,12 +56,15 @@ body {
   flex: 15%;
   background-color: beige;
   padding: 10px;
+  font-style: italic;
 }
 
 .titular {
   padding: 10px;
   border-bottom: 3px solid orange;
   color: black;
+  font-style: italic;
+
 }
 
 .titular h3 {
@@ -100,6 +115,10 @@ body {
 }
 
 #nota_secundaria h3 {
+  font-size: 28px;
+}
+
+#nota_terciaria h3 {
   font-size: 28px;
 }
 
