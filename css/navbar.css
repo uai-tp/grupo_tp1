@@ -2,7 +2,7 @@ nav {
   display: flex;
   justify-content: space-evenly;
   height: 55px;
-  line-height: 55px;
+  line-height: 75px;
   background: #404040;
 }
 
