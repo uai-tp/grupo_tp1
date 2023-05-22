@@ -17,8 +17,8 @@ body {
 
 #header {
   text-align: center;
-  background-color: #438FA1;
-  color: brown;
+  background-color: #662938;
+  color: rgb(243, 243, 243);
   padding: 5px 0;
   display: flex;
   align-items: center; 
@@ -40,9 +40,9 @@ body {
 .footer {
   text-align: center;
   /*background-color: rgb(127, 255, 176);*/
-  background-color: #438FA1;
-  color: black;
-  font-size: xx-small;
+  background-color: #662938;
+  color: rgb(255, 255, 255);
+  font-size: x-small;
   font-style: oblique;
   padding: 8px;
 }
@@ -115,7 +115,7 @@ body {
 }
 
 #nota_secundaria h3 {
-  font-size: 28px;
+  font-size: 20px;
 }
 
 #nota_terciaria h3 {
