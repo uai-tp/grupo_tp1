@@ -1,8 +1,8 @@
 nav {
   display: flex;
   justify-content: space-evenly;
-  height: 75px;
-  line-height: 75px;
+  height: 55px;
+  line-height: 55px;
   background: #404040;
 }
 
@@ -53,7 +53,7 @@ nav .nav-list .nav-link {
     top: 75px;
     left: 0;
     z-index: -1;
-    transform: translateY(20%);
+    transform: translateY(39%);
     transition: 0.6s;
   }
   nav .nav-list .nav-item {
